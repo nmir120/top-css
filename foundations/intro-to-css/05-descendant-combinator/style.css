@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+
+/* space between = descendent (walking to another element). no space = any element which has both */
+div p { 
+  background: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+/* OR */
+/* .container .text {...} */
+
+
+/* 
+Only the `p` elements that are descendants of the `div` element should have a yellow background,
+ red text, a font size of 20px, and center aligned. */
