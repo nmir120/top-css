@@ -1,3 +1,7 @@
+/* You can edit the CSS file by adding, removing, or editing selectors 
+for a declaration block, or by moving declaration blocks around. 
+**You should not edit the HTML file or any of the actual styles in the CSS**. */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,20 +12,22 @@ body {
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
+
+/* 1. moved small-para below para */
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+/* 2. changed .confirm rule block to #confirm-button - id is more specific than classes */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,7 +35,8 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* 3. change .child to .text.child (more specific than div.text */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
